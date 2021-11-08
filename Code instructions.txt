@@ -1,0 +1,21 @@
+step1) Image Acquisition
+
+in this code, images are captured using a digital camera upto 150 images
+*First, you must set the camera option in matlab then we can go foward
+for example:
+if you use the prebuild webcam it will be cao=webcam(1);
+else cao=webcam(2).
+
+*Second, set a proper folder for keeping the specified datasets.
+
+step2) Model training
+
+*Use alexnet for training the datasets
+*read the datasets folder(including subfolders)
+*and after testing, it will produce .mat file which is required testing model
+
+step3) Model Testing
+
+*connect the camera again
+*load the .mat file
+*the code will detect the desired objects
